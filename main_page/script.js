@@ -12,6 +12,7 @@ function onTermsClick(){
 
 function onYoutubeClick(){
     console.log("Youtube clicked")
+    window.open("");
     window.open("https:\\www.youtube.com.br");
 }
 

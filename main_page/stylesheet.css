@@ -16,7 +16,7 @@ body, html{
 #head-img{
     background: url(images/starship.jpg) no-repeat;
     width: 100%;
-    height: 315px;
+    height: 150px;
     background-attachment: fixed;
     background-size: contain;
 }
@@ -26,7 +26,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: top;
+    align-items: center;
     width: 100%;
 }
 
@@ -38,12 +38,11 @@ header h1{
     flex-wrap: wrap;
     align-items: center;
     width: 100%;
-    height: 300px;
-    font-size: 90px;
+    height: 170px;
+    font-size: 40px;
     color: white;
     text-shadow: 10px 10px 1px black;
     font-family: 'Times New Roman', Times, serif;
-
 }
 
 nav{
@@ -67,7 +66,7 @@ nav ul li {
     flex: 1;
     padding: 0 20px 0 20px;
     text-align: center;
-    font-size: 35px;
+    font-size: 14px;
     line-height: 100px;
     color: white;
 }
@@ -82,12 +81,12 @@ section{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 130px;
+    height: 30px;
     padding: 60px 0 30px;
 }
 
 section h2{
-    font-size: 60px;
+    font-size: 25px;
     color: white;
     text-align: center;
     width: 70%;
@@ -103,7 +102,8 @@ section h2:hover{
     cursor: pointer;
 }
 article{
-    padding: 60px;
+    padding: 60px 0 30px 0;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -114,13 +114,13 @@ article{
 article p {
     color: white;
     text-align: center;
-    font-size: 50px;
-    width: 90%;
+    font-size: 20px;
+    width: 85%;
 }
 
 footer{
     background-color: rgb(0, 0, 5);
-    width: inherit;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -158,21 +158,22 @@ footer ul li div{
 
 footer ul li div img{
     padding-right: 20px;
-    height: 50px;
+    height: 30px;
 }
 
-footer ul li div p {
+footer ul li div a {
+    text-decoration: none;
     color: white;  
-    font-size: 40px;
+    font-size: 14px;
 }
 
 #footer_info {
-    padding: 50px 0 50px 0;
+    padding: 10px 0 20px 0;
     display: flex;
     flex-wrap: wrap;
     width: 40%;
     color: white;
-    font-size: 20px;
+    font-size: 10px;
     text-align: center;
 
 }

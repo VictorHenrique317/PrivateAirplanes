@@ -12,11 +12,12 @@ function onTermsClick(){
 
 function onYoutubeClick(){
     console.log("Youtube clicked")
-    window.open("");
-    window.open("https:\\www.youtube.com.br");
+    let youtube_link = document.getElementById("youtube_hyperlink");
+    youtube_link.click();
 }
 
 function onTwitterClick(){
     console.log("Twitter clicked");
-    window.open("https:\\www.twitter.com");
+    let twitter = document.getElementById("twitter_hyperlink");
+    twitter.click();
 }
